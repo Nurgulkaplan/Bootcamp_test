@@ -296,7 +296,7 @@ Rural_city_df
 
 
 
-    <pandas.core.groupby.DataFrameGroupBy object at 0x1080deda0>
+    <pandas.core.groupby.DataFrameGroupBy object at 0x107a812e8>
 
 
 
@@ -495,9 +495,9 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 
 
-    ([<matplotlib.patches.Wedge at 0x116d58710>,
-      <matplotlib.patches.Wedge at 0x116d6e0f0>,
-      <matplotlib.patches.Wedge at 0x116d6ea90>],
+    ([<matplotlib.patches.Wedge at 0x10be422e8>,
+      <matplotlib.patches.Wedge at 0x10be42c88>,
+      <matplotlib.patches.Wedge at 0x10be4b748>],
      [Text(-0.863174,0.681858,'Rural'),
       Text(-1.06653,0.269291,'Suburban'),
       Text(1.34668,-0.382695,'Urban')],
@@ -536,9 +536,9 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 
 
-    ([<matplotlib.patches.Wedge at 0x116ea63c8>,
-      <matplotlib.patches.Wedge at 0x116ea6d68>,
-      <matplotlib.patches.Wedge at 0x116eb9748>],
+    ([<matplotlib.patches.Wedge at 0x114da37b8>,
+      <matplotlib.patches.Wedge at 0x114dab240>,
+      <matplotlib.patches.Wedge at 0x114dabcc0>],
      [Text(-0.947536,0.558727,'Rural'),
       Text(-0.986001,-0.48765,'Suburban'),
       Text(1.33995,0.405629,'Urban')],
@@ -578,9 +578,9 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 
 
-    ([<matplotlib.patches.Wedge at 0x116479080>,
-      <matplotlib.patches.Wedge at 0x116479a20>,
-      <matplotlib.patches.Wedge at 0x116c7f400>],
+    ([<matplotlib.patches.Wedge at 0x114e25ef0>,
+      <matplotlib.patches.Wedge at 0x114e32978>,
+      <matplotlib.patches.Wedge at 0x114e3a438>],
      [Text(-0.972833,0.513417,'Rural'),
       Text(-0.868153,-0.675508,'Suburban'),
       Text(1.26141,0.607331,'Urban')],
@@ -592,4 +592,11 @@ plt.pie(sizes, explode=explode, labels=labels, colors=colors,
 
 
 ![png](output_18_1.png)
+
+
+Observations:
+
+1. Urban cities have more drivers than Suburban/Urban cities.
+2. Rural cities have the least fare fees.
+3. Ural cities have more Pyber rides. 
 
